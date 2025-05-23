@@ -1,0 +1,80 @@
+class ATM:
+    def __init__(self, balance):
+        self.__balance = balance  # Private attribute
+
+    def deposit(self, amount):
+        self.__balance += amount
+        print(f"Deposited {amount}. New balance: {self.__balance}")
+
+    def withdraw(self, amount):
+        if amount <= self.__balance:
+            self.__balance -= amount
+            print(f"Withdrew {amount}. New balance: {self.__balance}")
+        else:
+            print("Insufficient balance")
+
+atm = ATM(1000)
+atm.deposit(500)
+atm.withdraw(300)
+
+
+class User:
+    def __init__(self, username, password):
+        self.username = username
+        self.__password = password 
+
+    def get_username(self):
+        return self.username
+
+    def check_password(self, password):
+        return password == self.__password
+
+user = User("dev_karnataka", "pass1234")
+print(user.get_username()) 
+print(user.check_password("wrong_pass"))  
+print(user.check_password("pass1234")) 
+
+
+class Car:
+    def start_engine(self):
+        print("Engine started")
+
+    def accelerate(self):
+        print("Car accelerating")
+
+    def brake(self):
+        print("Car stopping")
+
+car = Car()
+car.start_engine()  
+car.accelerate()
+car.brake()
+
+
+class Database:
+    def __init__(self):
+        self.__storage = {}
+
+    def save_data(self, key, value):
+        self.__storage[key] = value
+        print(f"Data saved for {key}")
+
+    def get_data(self, key):
+        return self.__storage.get(key, "No data found")
+
+db = Database()
+db.save_data("user_101", {"name": "Raj", "age": 30})
+print(db.get_data("user_101"))
+
+
+class Family:
+    def __init__(self, surname):
+        self.surname = surname
+
+class Child(Family):
+    def __init__(self, surname, name):
+        super().__init__(surname)
+        self.name = name
+
+child = Child("Gowda", "Ajay")
+print(f"{child.name} {child.surname}") 
