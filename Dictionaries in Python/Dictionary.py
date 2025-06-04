@@ -23,9 +23,5 @@ karnataka_food["Bengaluru"] = "Ragi Mudde"
 mysuru_food = karnataka_food.pop("Mysuru")
 print(mysuru_food)  # Output: Mysore Pak
 
-# del
 del karnataka_food["Mangaluru"]
-
-# clear
-
 karnataka_food.clear()
