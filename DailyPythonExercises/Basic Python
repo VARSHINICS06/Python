@@ -1,0 +1,523 @@
+# print("hello")
+# x=10
+# y="string"
+# print(type(x))
+# x=float(x)
+# print(type(x))
+# a=5687
+# b=868
+# print(a//b)
+# p=q=r=10
+# print(r)
+# a=1
+# b=2
+# print(a,b)
+# a,b=b,a
+# print(a,b)
+# a=1
+# b=2
+# print(a,b)
+# a=a+b
+# b=a-b
+# a=a-b
+# print(a,b)
+# name=input("What is your name: ")
+# age=int(input("What is your age: "))
+# print(name)
+# print(age)
+# print(type(age))
+# print("My name is" + name +" and my age is "+str(age))
+# print(f"Hello my name {name} my age {age}")
+# firt="varshini"
+# last="cs"
+# name=firt+" "+last
+# print(name)
+# msg="warning ! "
+# print(msg*4)
+# print(msg.upper())
+# print(msg.lower())
+# print(msg.strip())
+# print(msg.replace("warning", "rahd"))
+# print(msg[:])
+# print("hello\\world")
+# name=input("Enter your name : ")
+# age=input("Enter your age :")
+# print("hello, " +name+"! you are "+age+" years old." )
+# str=input("Input:")
+# print(str.upper())
+# print(str.lower())
+# print(str.replace(" ","_"))
+# print(str.strip())
+# Write Python program that:
+
+# Asks the user for a string.
+# Prints how many characters are in the string, excluding spaces
+# name=input("Input:")
+# count=name.replace(" ","")
+# print(f"Number of characters (excluding spaces):{len(count)}")
+# print("Hello\n\tWorld\nThis is a backslace: \\")
+
+# a=int(input("a: "))
+# b=int(input("b: "))
+# print(a>10 and b>10)
+# print(a<5 or b<5)
+# print(not(a<b))
+
+# age=int(input("age: "))
+# if age>=18:
+#     print("You are an adult")
+# elif age<18:
+#     print("you are minor")
+    
+# name=["varshini", "deepu","mamatha"]
+# name[0]="varsha"
+# name.append("tasbiya")
+# name.insert(1,"navya")
+# name.remove("deepu")
+
+# print(name[:5:2])
+# print(sorted(name))
+# num=[1,2,3,4,4]
+# print(sum(num))
+# num.reverse()
+# print(num)
+# matrix=[[1,2,3],[4,5,6],[7,8,9]]
+# print(matrix[0])
+# print(matrix[1][2])
+
+# lst=[1,2,3,4,5]
+# # lst.append(6)
+# # lst.insert(5,9)
+# # lst.remove(3)
+# # num=lst*3
+# # print(num)
+# for i in range(len(lst)):
+#     lst[i]*=2
+#     print(lst)
+
+# lst=[10,4,8,5,25,67]
+# lst.sort()
+# lst.reverse()
+# print(lst)
+
+# tup1=(1,2,3)
+# tup2=(4,5,6)
+# com=tup1+tup2
+# print(com)
+# set1={1,2,3,4}
+# set2={4,5,6}
+# union=set1|set2
+
+# print(union)
+# inter=set1&set2
+# print(inter)
+# diff=set1-set2
+# print(diff)
+
+# tup=("apple","orange","banana","kiwi","papaya")
+# tup1=("var","dee","mama")
+# print(tup[1:3])
+# print(tup+tup1)
+# set1={"apple","banana","kiwi"}
+# set2={"banana","cerry","papaya"}
+# set1.discard("mango")
+# print(set1)
+# lst=["apple","orange","banana","kiwi","papaya"]
+# tup=tuple(lst)
+# set1=set(lst)
+# print(tup)
+# print(set1)
+
+# my_dict={
+#     "name":"varshini",
+#     "age":21,
+#     "branch":"CSE",
+#     "age":3
+
+# }
+# # print(my_dict.get("name"))
+# my_dict["clg"]="Rajeev"
+# # del my_dict["name"]
+# print(my_dict.keys())
+# print(my_dict.values())
+# print(my_dict.items())
+# time=10
+# if time==20:
+#     print("time to dinner")
+# else:
+#     print("not a time")    
+
+# age=19
+# is_student=True
+# if age<=18 and is_student:
+#     print("eligible")
+# else:
+#     print("not eligible")
+
+# age=int(input("age: "))
+# if age<=5:
+#     print("the ticket is free.")
+# elif age>5 and age<12:
+#     print(" they get a child discount.")
+# elif age>60:
+#     print("they get a senior citizen discount.")
+# else:
+#     print("full ticket")
+
+# day=input("day:")
+# whether=input("whether:")
+# if day=="saturday" or day=="sunday":
+#     if whether!="rain":
+#         print("go to mysuru")
+#     else:
+#         print("it is rainy")
+# else:
+#     print("not a weekend")
+
+# age=int(input("age: "))
+# if age<18:
+#     print(" student membership")
+# elif age>60:
+#     print("senior citizen membership.")
+# else:
+#     print("regular membership.")
+
+# time=input("time: ")
+# if time=="8am":
+#     print("Breakfast")12
+# elif time=="1pm":
+#     print("lunch")
+# elif time=="8pm":
+#     print("Dinner")
+# else:
+#     print("it is not a male time")
+
+# i=1
+# while i<=10:
+#     print (f"  {i}")
+#     i+=1
+
+# sheep_count=1
+# while sheep_count<=10:
+#     if sheep_count==5:
+#         sheep_count+=1
+#         break
+#     print(sheep_count)
+#     sheep_count+=1
+
+# is_failed=True
+# i=1
+# while is_failed :
+#     if i%2!=0:
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+#     if i>100:
+#         break
+
+# pin=""
+# correct_pin="1234"
+# while pin!=correct_pin:
+#     pin=input("Enter the pin: ")
+#     if pin!= correct_pin:
+#         print("incorrect")
+#     print("acccepted")
+
+# avi_set=5
+# while avi_set>0:
+#     print(f"{avi_set} seats available")
+#     book=input("Do you want to book a set (yes/no): ").lower()
+#     if book=="yes":
+#         avi_set-=1
+#         print("set is booked")
+#     else:
+#         print("no book")
+# print("All sets are booked")
+
+
+# snacks_available = 3
+# money = 10
+
+# while snacks_available > 0 and money > 0:
+#     print(f"Snacks available: {snacks_available}. Money: ₹{money}")
+#     buy = input("Do you want to buy a snack for ₹5? (yes/no): ").lower()
+    
+#     if buy == "yes" and money >= 5:
+#         snacks_available -= 1
+#         money -= 5
+#         print("Snack purchased!")
+#     else:
+#         print("No purchase made.")
+        
+# print("Either snacks are sold out or you are out of money.")
+
+# i=1
+# while i<=20:
+#     if i%2!=0:
+#         print(i)
+#     i=i+1
+
+# avil_set=8
+# while avil_set>0:
+#     print(f"avilable sets{avil_set}")
+#     book=input("book the set (yes/no): ")
+#     if book=="yes":
+#         print("set is booked")
+#         avil_set-=1
+#     else:
+#         print("not booked")
+
+# print(" no seats left")
+
+# i=10
+# while i>=1:
+#     print(i)
+#     i-=1
+# print("Happy new year")
+
+# cites=["Bengluru","Mysuru","Hubballi","Mangaluru"]
+# for city in cites:
+#     print(city)
+
+# for i in range(1,11,2):
+#     print(i)
+
+# name="Karnataka"
+# for letter in name:
+#     print(letter)
+    
+# for i in range(1,6):
+#     for j in range(1,11):
+#         print(f"{i} x {j} = {i*j}") 
+#     print()   
+
+# cites=["Bengluru","Mysuru","Hubballi","Mangaluru"]
+# # for index,city in enumerate(cites):
+# #     print(f"city{index+1}:{city}")
+# for city in cites:
+#     print(city)
+# else:
+#     print("NO more cities")
+ 
+# laddus=5
+# friends=["varshitha","Tasbiya","preethi","srusti","bindu"]
+# for frd in friends:
+#     if laddus>0:
+#         print(f"{frd} get a laddu")
+#         laddus-=1
+
+# else:
+#     print("no laddu is left")
+
+# for i in range(3):
+#     for j in range(1,30):
+#         print(f"{i} x {j} = {i*j}")
+
+# name="varshini"
+# for letter in name:
+#     print(letter)
+
+# srt="varshinics"
+# vow="aeiouAEIOU"
+# count=0
+# for char in srt:
+#     if char in vow:
+#         count+=1
+# print(count)
+
+# numbers=[10,20,30,40]
+# total=0
+# for num in numbers:
+#     total+=num
+# print(total)
+
+# numbers=[10,20,30,40]
+# double=[]
+# for num in numbers:
+#     double.append(num*2)
+# print(double)
+
+# student_marks={"Geetha":54,"Anand": 86,"Varshini":100}
+# for student in student_marks:
+#     print(student)
+
+
+# student_marks={"Geetha":54,"Anand": 86,"Varshini":100}
+# for marks in student_marks.values():
+#     print(marks)
+
+# student_marks={"Geetha":54,"Anand": 86,"Varshini":100}
+# for student, marks in student_marks.items():
+#     print(f"{student}:{marks}")
+
+# student=["Anand","Geetha","Kumar"]
+# marks=[79,99,56]
+# student_marks={}
+# for i in range(len(student)):
+#     student_marks[student[i]]=marks[i]
+# print(student_marks)
+
+# number=[1,2,3,4,5]
+# double=[]
+# for num in number:
+#     double.append(num*num)
+# print(double)
+
+# number=[1,2,3,4,5]
+# double=[num**2 for num in number]
+# print(double)
+
+# number=[1,2,3,4,5,6,7,8,9,10]
+# even=[num for num in number if num%2==0]
+# print(even)
+
+# cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
+# upper_city=[city.upper() for city in cities]
+# print(upper_city)
+
+# number=[1,2,3,4,5,6,7,8,9,10]
+# sqr={num:num**2 for num in number}
+# print(sqr)
+
+# name=["varshini","deepika","manoja"]
+# len_di={nam:len(nam) for nam in name}
+# print(len_di)
+
+# city_population = {
+#     "Bengaluru": 84,
+#     "Mysuru": 11,
+#     "Hubballi": 9,
+#     "Mangaluru": 5
+# }
+# larg_city={city:pop for city,pop in city_population.items() if pop>10}
+# print(larg_city)
+
+# sentence="I Love coding in python"
+# world=sentence.split( )
+# print(world)
+
+# fruit="apple,banana,papaya"
+# fer=fruit.split(",")
+# print(fer)
+
+# food=["dosa","dili","ode"]
+# upp_food=[fod.upper() for fod in food ]
+# print(upp_food)
+
+# item={
+#     "book":40,
+#     "pen":20,
+#     "scale":10
+# }
+# total=0
+# for price in item.values():
+#     total+=price
+# print(total)
+
+# num=[1,2,3,4,5,6,7,8,9,10]
+# sqr=[nu**2 for nu in num]
+# print(sqr)
+
+# student_dey=[{"name":"varshini","age":21,"marks":100},{"name":"deepu","age":19,"marks":99},{"name":"tasbiya","age":22,"marks":78}]
+# for inf in student_dey:
+#     print(f"Name:{inf["name"]}")
+#     print("Age:", inf["age"])
+#     print("Marks:", inf["marks"])
+#     print("--------------------")
+
+# matrix=[[1,2,3],[4,5,6],[7,8,9]]
+# for row in matrix:
+#     print(row)
+# print("sum")
+# for i, row in enumerate(matrix):
+#     row_sum=sum(row)
+#     print(f" {i+1}:{row_sum}")
+
+# def greet(name="student"):
+#     print(f"hello good morning {name}")
+# greet()
+
+# def add(a,b):
+#     return a+b
+# result=add(4,6)
+# print(result)
+
+# name="gobal name"
+# def greet():
+#     name="local name"
+#     print(name)
+# greet()
+# print(name)
+
+# def display(name,age):
+#     print(f"Name:{name}\nAge:{age}")
+# display(age=21,name="varshini")
+
+# def total_sum(*numbers):
+#     result=0
+#     for num in numbers:
+#         result+=num
+#     return result
+# print(total_sum(2,3,4,5,6,7))
+
+# def student_info(**details):
+#     for key,value in details.items():
+#         print(f"{key}:{value}")
+# student_info(name="varshini",age=34,coures="python")
+
+
+# double=lambda x:x*2
+# print(double(5))
+
+# nums=[1,2,3,4]
+# squred=list(map(lambda x:x**2,nums))
+# print(squred)
+# even=list(filter(lambda x:x%2==0,nums))
+# print(even)
+
+# names=["Tasbiya","Varshini","Preethi"]
+# sor=sorted(names,key=lambda x:len(x))
+# print(sor)
+
+# def factorial(n):
+#     if n==1:
+#         return 1
+#     else:
+#         return n*factorial(n-1)
+# print(factorial(5))    
+
+# def calculater(a,b):
+#     def add():
+#         print(a+b)
+#     def sub():
+#         print(a-b)
+#     def mul():
+#         print(a*b)
+#     add()
+#     sub()
+#     mul()
+# calculater(8,7)
+
+# multipy=lambda x,y:x*y
+# result=multipy(5,6)
+# print(result)
+
+# def sum(n):
+#     if n==0:
+#         return 0
+#     else:
+#         return n+sum(n-1)
+# sum_n=sum(2)
+# print(sum_n)
+
+# def avg(*a):
+#     total=0
+#     for num in a:
+#         total+=num
+#         avvg=total/len(a)
+#     print(avvg)
+
+# avg(10,3,4,6)
+   
+
