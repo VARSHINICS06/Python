@@ -1,0 +1,45 @@
+# n=int(input("enter a number: "))
+# a=0
+# b=1
+# for i in range(n):
+#     print(a,end=" ")    
+#     a,b=b,a+b
+
+# n=int(input("enter a number: "))
+# a=0
+# b=1
+# for i in range(2,n+1):
+#     a,b=b,a+b
+# print(a)
+
+# using while loop
+
+# n=int(input("enter a number: "))
+# a=0
+# b=1
+# count=0
+# while count<n:
+#     print(a)
+#     a,b=b,a+b
+#     count+=1
+
+#  using list
+
+# n=int(input("enter a number: ") )
+# fib=[0,1]
+# for i in range(2,n):
+#     fib.append(fib[-1]+fib[-2])
+
+# print(fib)
+
+# using recursion
+# def fib(n):
+#     if n<=1:
+#         return n
+#     else:
+#         return fib(n-1)+fib(n-2)    
+# print(fib(6))   
+
+
+
+    
