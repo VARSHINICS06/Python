@@ -1,0 +1,473 @@
+# Natural=int(input("enter the number: "))
+# num=1
+# count=0
+# while num<=Natural:
+#     count+=num
+#     num+=1
+# print(count)
+# i=1
+# num=3
+# count=0
+# while i<=3:
+#     if num%i==0:
+#         count+=1
+#     i+=1
+        
+# if count==2:
+#         print("It is prime")
+# else:
+#         print("not")
+# num=111
+# rev=0
+# dup=num
+# while num>0:
+#     last=num%10
+#     num//=10
+#     rev=rev*10+ last
+# if dup==rev:
+#         print("palindrom")
+# else:
+#         print("not")
+# num=11111
+
+# count=0
+# while num>0:
+#     last=num%10
+#     count+=1
+#     num//=10
+# print(count)
+# i=1
+# fact=6
+
+# while fact>0:
+#     i*=fact
+#     fact-=1
+# print(i)
+
+# arr=[1,2,3,4,5,6]
+# n=len(arr)
+# temp=arr[0]
+# for i in range(1,n):
+#     arr[i-1]=arr[i]
+# arr[n-1]=temp
+# print(arr)
+
+# num=153
+# sum=0
+# dup=num
+# while num>0:
+#     last=num%10
+#     sum+=last**3
+#     num//=10
+# if(sum==dup):
+#     print("True")
+# else:
+#     print("false")
+
+# num=123
+# add=0
+# mul=1
+# while num>0:
+#     last=num%10
+#     add+=last
+#     mul*=last
+#     num//=10
+# if(add==mul):
+#     print("spy number")
+# else:
+#     print("no spy number")
+
+#neon number 9=81 and 8+1=9
+# num=9
+# sum=0
+# sqr=num*num
+# while sqr > 0:
+#     last=sqr%10
+#     sum+=last
+#     sqr//=10
+# if num==sum:
+#     print("nenon number")
+# else:
+#     print("not nenon number")
+# num=4
+# i=1
+# while i<=num:
+#     if num%i==0:       
+#         print(i)
+#     i+=1
+
+# num=6
+# i=1
+# sum=0
+# while i<num:
+#     if num%i==0:
+#         sum+=i       
+#     i+=1
+# if (sum==num):
+#     print("perfect number")
+# else:
+#     print("not perfect number")
+
+# num=143
+# large=0
+# while num>0:
+#     dig=num%10
+#     if dig>large:
+#         large=dig
+#     num//=10
+# print(large)
+
+
+# num=143
+# small=9
+# while num>0:
+#     dig=num%10
+#     if dig<small:
+#         small=dig
+#     num//=10
+# print(small)
+
+# num=546329
+# even_sum =0
+# odd_sum=0
+# while num>0:
+#     dig=num%10
+#     if dig%2==0:
+#         even_sum+=dig
+#     else:
+#         odd_sum+=dig
+#     num//=10
+# print(even_sum,odd_sum)
+#  count and sum only prime number
+# count and sum even and odd number
+
+# num=153
+# temp=num
+# add=0
+# while num>0:
+#     dig=num%10
+#     add+=dig
+#     num//=10
+#     div=temp/add
+# if(temp%div==0):
+#     print("Harshad number")
+# else:
+#     print("not Harshad number")
+# num=153
+# temp=num
+# add=0
+# while num>0:
+#     dig=num%10
+#     add+=dig
+#     num//=10
+    
+# if(temp%add==0):
+#     print("Harshad number")
+# else:
+#     print("not Harshad number")
+
+# num=73458745368598479
+# even=0
+# odd=0
+# while num>0:
+#     last=num%10
+#     if last%2==0:
+#         even+=1
+#     else:
+#         odd+=1
+#     num//=10
+# print(even)
+# print(odd)
+
+# num=6767547568
+# count=0
+# total=0
+# while num>0:
+#     dig=num%10
+#     if dig in [2,3,5,7]:
+#         count+=1
+#         total+=dig
+#     n//=10
+# print(count)
+# print(total)
+
+# n=4
+# for i in range(n):
+#     for j in range(1,n+1):
+        
+#         print(j,end=" ")
+#     print()
+
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+#     print()
+# n=5
+# for i in range(1,n+1):
+#     for j in range(i):
+#         print(chr(65+j),end=" ")
+#     print()
+# n=5
+# for i in range(5):
+#     print(str(5)*(n-i))
+
+# n=5
+# for i in range(n):
+#     for j in range(n):
+#         if i==0 or j==0 or i==n-1 or j==n-1:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+# n=5
+# for i in range(n):
+#     for j in range(n):
+#         if  j==0 or i==n-1 or j==i:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+# Hollow Heart Pattern
+# for row in range(6):
+#     for col in range(7):
+#         if ((row == 0 and col % 3 != 0) or
+#             (row == 1 and col % 3 == 0) or
+#             (row - col == 2) or
+#             (row + col == 8)):
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+
+# for i in range(5):
+#     for j in range(5):
+#         if ((i-j==0 and i!=3 and j!=4) or (i+j==4  )):
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+# lis=["varsha","thasbiya","bindu","srusti","varshitha"]
+# for name in lis:
+#     if name=="varshitha":  
+#         print(name,"name found")
+        
+#     else:
+    
+#         print("checking",name)
+
+# for i in range(1,10):
+#     if i==5:
+#         continue
+#     print(i)
+
+# count=0
+# for i in range(1,10):
+#     if i%3==0:
+#         count+=1
+        
+#     print(i)
+# print(count)
+
+# word="gfdsahj"
+# for letter in word:
+#     if letter=="a":
+        
+#         break
+#     print(letter)
+
+# i=1
+# sum=0
+# while True:
+#     sum=sum+i
+#     print(sum)
+#     i+=1
+#     if sum>50:
+        
+#         print("stop")
+# #         break
+# total = 0
+# num = 1
+
+# while True:  
+#     total += num
+#     print(total)
+#     num += 1
+
+#     if total > 50:   # condition to stop
+#         print("Sum exceeded 50 — stopping loop using break.")
+#         break
+
+
+
+# for i in range(1,4):
+#     password="varshini"
+#     user=input("enter password:")
+#     if password==user:
+#         print("correct")
+#         break
+#     else:
+#         i-=1
+# else:
+#     print("all attempt is completed")
+
+# lst=[34,56,-89,34,56,78,-9]
+# for i in  lst:
+#     if i<0:
+#         continue
+#     print(i)
+
+# lst=[54,78,83,67,12,78,18,78]
+# for i in lst:
+#     if i<=35:
+#         break
+#     print(i)
+
+# sen= "I my name is Thas"
+# for i in sen:
+#     if i==" ":
+#         continue
+#     print(i,end="")
+
+# techer is checking
+# if the name is empty
+# if the "stop" stop  taking  attendence
+# otherwise mark as present
+
+# lst=["varshini","","Thasbiya","stop","bindu",""]
+# for name in lst:
+#     if name=="":
+#         continue
+#     elif name=="stop":
+#         print("stop taking attendance")
+#         break
+#     else:
+#         print(name,"present")
+
+# while True:
+#     name=input("Enter the name:")
+#     if name=="":
+#         continue
+#     if name.lower()=="stop":
+#         print("stop taking attendance")
+#         break
+#     if name.isalpha():
+#         print(name,"present")
+
+#     else:
+#         print("Invalid input")
+
+# def greeting():
+#     print("welcome to javri and chintu marriage")
+# for  i in range(4):
+#     greeting()
+        
+# def add(a=3,b=4):
+#     print(a+b)
+# add(b=5)
+
+# def sqre(num):
+#     print(num*num)
+# sqre(6)
+
+# n=int(input("Enter a number: "))
+# def number(n):
+#     if n%2==0:
+#         print("even")
+#     else:
+#         print("odd")
+# number(n)
+
+# def Table(num):
+#     for i in range(1,11):
+#         print(f"{num} x {i} ={num*i}")
+#         print()
+# Table(5)
+
+# def even(num):
+#     for i in range(2,num+1,2):
+#         print(i)
+# even(100)
+
+# count=0   
+# def word(sen):
+#     for char in sen:
+        
+# word("apple")
+
+# def sentence(sen):
+#     word=sen.split()
+#     print(word)
+#     print(len(word))
+# sentence("apple is fruit")
+
+# def sentence(sen):
+#     word=sen.split()
+#     for i in word:
+#         print(i)
+#         print(len(i))
+# sentence("apple")
+
+# sen="python is programing "
+# word=sen.split()
+# print("number of word",len(word))
+# for i in word:
+#     print(i,len(i))
+#     print()
+
+# def sentence(sen):
+#     word=sen.split()
+#     print("number of word",len(word))
+#     for i in word:
+#         print(i,len(i))
+#         print()
+# sentence("python is programing ")
+
+# def sentences(sen):
+#     count=0
+#     for char in sen:
+#         if char!=" ":
+#             count+=1
+#     print(count)
+
+# sentences("python is programing")
+
+# def sentence(sen):
+#     word=sen.split()
+#     for i in word:
+#         if len(i)>=4:
+#             print(i)
+# sentence("python is programing ")
+
+sentence = input("Enter a sentence: ")
+
+upper = 0
+lower = 0
+
+for ch in sentence:
+    if ch.isupper():
+        upper += 1
+    elif ch.islower():
+        lower += 1
+
+print("Uppercase letters:", upper)
+print("Lowercase letters:", lower)
+
+
+
+
+
+       
+
+
+     
+
+    
+    
+    
+
+    
+
