@@ -1,0 +1,14 @@
+Brute force solution
+
+arr=[3,5,3,8,9]
+arr.sort()
+print(arr[-1])
+
+optimal solution
+
+arr=[5,9,7,2,5,1]
+largest=arr[0]
+for i in range(1,len(arr)):
+  if arr[i]>largest:
+    largest=arr[i]
+print(largest) 
